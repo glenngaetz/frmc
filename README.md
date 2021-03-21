@@ -4,8 +4,10 @@ Fundraising metrics calculation class
 This module defines the FRMCalc class used for doing the actual calculations of each of 11 metrics. 
 
 ## Usage
+```
 calc = FRMCalc()
 second_gift_conversion_rate = calc.second_gift_conversion_rate(acquired, second_gift)
+```
 
 ## The Metrics
 
